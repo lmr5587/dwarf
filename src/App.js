@@ -3,6 +3,7 @@ import Header from'./Header'
 import Adtext from'./Adtext'
 import Article from'./Article'
 import Otherarticles from'./Otherarticles'
+import Footer from'./Footer'
 import './App.css';
 
 class App extends Component {
@@ -19,11 +20,8 @@ class App extends Component {
           
         </main>
 
-
-        <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
-        </footer>
+        <Footer/>
+        
       </div>
     );
   }
